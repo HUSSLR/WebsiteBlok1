@@ -22,7 +22,7 @@ Olaf Husslage
 hier je startniveau (kies uit zwart, rood óf blauw)
 
 #### Je focus:
-hier je focus (kies uit responsive óf surface plane)
+Responsive
  
 </details>
 
