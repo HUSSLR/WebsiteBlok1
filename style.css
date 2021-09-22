@@ -1,0 +1,85 @@
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+
+/* HEADER */
+nav{
+  display: flex;
+  padding: .5em;
+  width: 94%;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.logo{
+  width: 5.4em;
+  height: 100%;
+}
+
+.hamburger_menu{
+  width: 1.2em;
+  height: 100%;
+  margin-top: 0%;
+}
+
+.winkelmandje{
+  width: 1.1em;
+  height: 100%;
+}
+
+
+/* MAIN */
+
+/* Teksten */
+h1{
+  font-size: 4em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  border-radius: 2em;
+}
+
+/* https://www.youtube.com/watch?v=tb_EwQOa_ao */
+.zwarte_korting_banner{
+  background-image: url(../images/zwarte_afbeelding.png);
+  height: 70%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.korting_tekst_op_zwarte_banner{
+  text-align: center;
+  position: sticky;
+  width: 100%;
+  color: white;
+  height: auto;
+  margin-top: 200px;
+}
+
+.code_voor_korting{
+  margin-top: -17px;
+}
+
+.shopnu_button_in_banner{
+  display: sticky;
+  left: 9em;
+  font-weight: bold;
+  padding: 1.5em;
+  margin-bottom: 10%;
+  width: 40%;
+  color: #000000;
+  border-radius: 3em;
+  border: none;
+  text-align: center;
+}
+
+
+/* FOOTER */
