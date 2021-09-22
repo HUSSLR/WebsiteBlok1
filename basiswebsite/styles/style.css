@@ -69,7 +69,7 @@ h1{
 }
 
 .shopnu_button_in_banner{
-  position: sticky;
+  display: sticky;
   left: 9em;
   font-weight: bold;
   padding: 1.5em;
